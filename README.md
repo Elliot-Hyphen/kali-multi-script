@@ -21,3 +21,5 @@ chmod +x kalifix.sh
 
 ./kalifix.sh
 ```
+
+*NOTE: If you run into any issues feel free to add me on Discord and inform me. Any feedback will help and I am always taking on new PROJECTS!
