@@ -21,5 +21,7 @@ chmod +x kalifix.sh
 
 ./kalifix.sh
 ```
+You are able to run this script on any **LINUX** System - the only script that will **NOT** work is ``Install Kali-tools`` 
+
 
 *NOTE: If you run into any issues feel free to add me on Discord and inform me. Any feedback will help and I am always taking on new PROJECTS!*
