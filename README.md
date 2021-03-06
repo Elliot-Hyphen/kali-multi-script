@@ -12,3 +12,12 @@ What's Inside!
 
 <h2> How to Install the Script </h2>
   
+```
+git clone https://github.com/Elliot-Hyphen/kali-multi-script
+
+cd kali-mutli-script
+
+chmod +x kalifix.sh
+
+./kalifix.sh
+```
