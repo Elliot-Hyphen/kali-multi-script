@@ -1,6 +1,6 @@
 <h1> Kali-Linux Multi Script <h1>
 
-__What's Inside!__
+What's Inside!
 
 `Fix Wifi Problems`  Will fix known WiFi Issues
 `Install Kali-tools` Will install every Kali Linux Package 
