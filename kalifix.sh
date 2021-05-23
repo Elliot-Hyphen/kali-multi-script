@@ -48,6 +48,7 @@ echo " Installing Bleachbit.... Please Wait!"
 	sudo bleachbit
 ;;
   "Just for my Anon E ") 
+   echo " You are my World <3" 
    sudo apt-get install linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,') linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,') broadcom-sta-dkms -y
 
 
