@@ -7,6 +7,7 @@ echo " ## ### ## ##     ## ########  ##          ##    "
 echo " ##     ## ##     ## ##     ## ##          ##    " 
 echo " ##     ## ##     ## ##     ## ##          ##    " 
 echo " ##     ##  #######  ########  ########    ## #5529 " 
+echo " April is BAE <3" 
 PS3='Please select your choice: '
 options=("Fix Wifi Problems" "Update OS" "Install Kali-tools" "Clean System")
 select opt in "${options[@]}"
