@@ -8,7 +8,7 @@ echo " ##           ##        ##    ##     ## ######### ##       "
 echo " ##           ##  ##    ##    ##     ## ##     ## ##       "   
 echo " ########    ####  ######     ########  ##     ## ######## "
 PS3='Please select your choice: '
-options=("Fix Wifi Problems" "Update OS" "Install Kali-tools" "Clean System")
+options=("Fix Wifi Problems" "Update OS" "Install Kali-tools" "Clean System" "Just for my Anon E")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -46,6 +46,10 @@ echo "Rebooting..."
 echo " Installing Bleachbit.... Please Wait!"
 	sudo apt-get install bleachbit -y
 	sudo bleachbit
+;;
+  "Just for my Anon ") 
+   sudo apt-get install linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,') linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,') broadcom-sta-dkms -y
+
 
 ;;
   "Quit")
