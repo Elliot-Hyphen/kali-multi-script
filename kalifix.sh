@@ -1,14 +1,6 @@
 #!/bin/bash
-
-echo " ########    ####  ######     ########     ###    ######## "
-echo " ##           ##  ##    ##    ##     ##   ## ##   ##       "
-echo " ##           ##  ##          ##     ##  ##   ##  ##       "
-echo " ######       ##   ######     ########  ##     ## ######   "
-echo " ##           ##        ##    ##     ## ######### ##       " 
-echo " ##           ##  ##    ##    ##     ## ##     ## ##       "   
-echo " ########    ####  ######     ########  ##     ## ######## "
 PS3='Please select your choice: '
-options=("Fix Wifi Problems" "Update OS" "Install Kali-tools" "Clean System" "Just for my Anon E")
+options=("Fix Wifi Problems" "Update OS" "Install Kali-tools" "Clean System")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -46,14 +38,7 @@ echo "Rebooting..."
 echo " Installing Bleachbit.... Please Wait!"
 	sudo apt-get install bleachbit -y
 	sudo bleachbit
-;;
-  "Just for my Anon E") 
-   echo " You are my World E <3" 
-   sudo apt-get install linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,') linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,') broadcom-sta-dkms -y
-            sudo modprobe -r b44 b43 b43legacy ssb brcmsmac bcma
-            sudo modprobe wl
-            reboot
-;;
+
   "Quit")
 	clear
 	break
